@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Geologica:wght@100;200;300;400;600&family=Inter:wght@100;200;400&family=Italiana&family=Lobster&family=Roboto:wght@300&display=swap');
+/* font-family: 'Alkalami', serif;
+font-family: 'Geologica', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Italiana', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Roboto', sans-serif; */
+
+body{
+    font-family: 'inter', sans-serif;
+    font-size: 62,5%;
+    background-image: url(../img/background-block-5a284443c23cc40b39995255b861b8d4.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-size: 30rem;
+    background-color: rgba(0, 0, 0, 0.701);
+    
+    
+    
+    
+    
+}
+.hero-header{
+     padding:0 5rem;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    margin: 5rem auto;
+    max-width: 1435px;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+.perfil-header{
+     margin-top: 30px;
+     width: 150px;
+     height: 150px; 
+     border-radius: 50%;
+     
+    
+}
+.box-photo{
+        
+    /* width: 20rem; */
+    /* height: 12.7rem; */
+    
+    height: 12.7rem;
+    
+    
+}
+.box-sobre{
+    
+    
+     flex: 1 0 200px; 
+}
+.name{
+    color: #e4e4e4;
+    font-family: 'inter',sans-serif;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    line-height: 1px;
+    
+}
+.sub-tile-hero{
+    color: #a3abb2;
+    text-align: justify;
+}
+.list-link{
+    list-style: none;
+}
+
+    
+    
+    
+.icon-header{
+width: 2.5rem;
+
+}
+ul{
+    display: flex;
+    align-items: center;
+    /* justify-content: start; */
+    gap: .4rem;
+    margin: 0;
+    padding: 0;
+}
+.about-section{
+    width: 40%;
+    margin: auto;
+    max-width: 1435px;
+    
+}
+.about-title{
+    font-size: 2rem;
+    color: #e4e4e4;
+   
+    
+}
+.about-title::after {
+    content: ""; /* Cria o elemento de linha pseudo */
+  display: flex; /* Faz o elemento ser exibido como um bloco */
+  width: 20%; /* Define a largura da linha */
+  height: 1px; /* Define a espessura da linha */
+  background-color: orangered; /* Define a cor da linha */
+  position: absolute; /* Posiciona a linha em relação ao container */
+  top: 58%; /* Alinha a linha verticalmente ao centro do container */
+  transform: translateY(-50%); /* Centraliza verticalmente a linha */
+  left: 40rem; /* Define a distância entre a linha e o título */
+    
+  }
+.about-text{
+    line-height: 2rem;
+    color: #e4e4e4;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+.bnt-cv{
+    background-color: orangered;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #e4e4e4;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.bnt-cv:hover{
+    background-color: #202122bd;
+    transition: background 2s ease;
+}
+/* Projetos */
+.project-section{
+    /* width: 40%;
+    margin: 5rem auto; */
+    margin-top: 9rem;
+    background-color:#003d52 ;
+    background-image: url(../img/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    
+    
+}
+.container{
+    width: 60%;
+    max-width: 1435px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+    
+}
+.project-img{
+    width:100%;
+    height: 300px;
+}
+.project-title{
+    color: #e4e4e4;
+    font-family: 'inter',sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    line-height: 1px;
+    text-align: center;
+    
+}
+article{
+    flex: 1 0 150px;
+    flex-direction: column;
+    
+    
+}
+    .project-text{
+        color: #e4e4e4;
+        margin: 1rem 0;
+        text-align: center;
+    }
+    .bnt-acessar-projetos{
+        padding: 15px;
+        background-color: orangered;
+        border-radius: 5px;
+        margin: 1rem 0;
+        border: none;
+    }
+        .bnt-acessar-projetos a{
+            color: #e4e4e4;
+        text-decoration: none;
+        
+
+        }
+        @media screen and (max-width:900px) {
+            .hero-header{
+                width: 100%;
+                padding: 0;
+                
+            }
+            .box-photo{
+                width: 100%;
+                
+            }
+            .name{
+                font-size: 3rem;
+                
+
+            
+        }
+        .box-sobre{
+            flex: 1 0 auto;
+            
+            
+            
+        }
+        .about-text{
+            font-size: .7rem;
+        }
+           
+
+        }
